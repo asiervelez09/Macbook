@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MacBook Pro 16" — Potencia extrema para profesionales | Apple</title>
+  <meta name="description" content="Descubre el nuevo MacBook Pro 16 pulagadas con chip M3 Max. Rendimiento sin precedentes, pantalla Liquid Retina XDR y hasta 22 horas de batería.">
+  
+  <!-- Open Graph / Meta SEO -->
+  <meta property="og:title" content="MacBook Pro 16&quot; — Potencia extrema | Apple">
+  <meta property="og:description" content="Rendimiento sin precedentes para creadores y desarrolladores.">
+  <meta property="og:type" content="website">
+
+  <!-- Schema.org Data Structure -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "MacBook Pro 16\"",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+    "description": "El ordenador portátil definitivo para profesionales creativos y desarrolladores.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Apple"
+    },
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "EUR",
+      "price": "2999.00",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
+
+  <style>
+    /* CSS SYSTEM & VARIABLES */
+    :root {
+      --primary: #0071e3;
+      --primary-hover: #0077ed;
+      --bg-dark: #000000;
+      --bg-card: #161617;
+      --bg-light: #f5f5f7;
+      --text-main: #f5f5f7;
+      --text-muted: #86868b;
+      --text-dark: #1d1d1f;
+      --radius: 18px;
+      --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --max-width: 1100px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-main);
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    /* HEADER */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .nav-container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: 600;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.6rem 1.4rem;
+      background-color: var(--primary);
+      color: #fff;
+      border-radius: 980px;
+      font-weight: 500;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: var(--primary-hover);
+      transform: scale(1.02);
+    }
+
+    /* SECTIONS COMMON */
+    section {
+      padding: 5rem 1.5rem;
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      color: #f56300;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+
+    h1, h2, h3 {
+      letter-spacing: -0.015em;
+    }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding-top: 6rem;
+      padding-bottom: 4rem;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 700;
+      line-height: 1.08;
+      margin-bottom: 1rem;
+    }
+
+    .hero p.subtitle {
+      font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+      color: var(--text-muted);
+      max-width: 700px;
+      margin: 0 auto 2rem;
+    }
+
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+
+    .hero-img {
+      width: 100%;
+      max-width: 900px;
+      height: auto;
+      border-radius: var(--radius);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+
+    /* PROBLEMA */
+    .problem-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .card {
+      background-color: var(--bg-card);
+      padding: 2rem;
+      border-radius: var(--radius);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.8rem;
+      color: #fff;
+    }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* SOLUCION / BENEFICIOS */
+    .section-title {
+      font-size: clamp(2rem, 4vw, 3rem);
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .section-desc {
+      text-align: center;
+      color: var(--text-muted);
+      max-width: 650px;
+      margin: 0 auto 3rem;
+      font-size: 1.1rem;
+    }
+
+    .bento-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    .bento-item {
+      background-color: var(--bg-card);
+      padding: 2.5rem;
+      border-radius: var(--radius);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .bento-item.wide {
+      grid-column: span 2;
+    }
+
+    .bento-item h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* COMO FUNCIONA (PASOS) */
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .step-number {
+      font-size: 3rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    /* TESTIMONIOS (PLACEHOLDER) */
+    .testimonial {
+      background-color: var(--bg-card);
+      padding: 2rem;
+      border-radius: var(--radius);
+      border-left: 4px solid var(--primary);
+      margin-top: 2rem;
+    }
+
+    /* PRECIO Y OFERTA */
+    .pricing-box {
+      background: linear-gradient(145deg, #1e1e1f, #111112);
+      border-radius: var(--radius);
+      padding: 3.5rem 2rem;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .price {
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin: 1.5rem 0;
+    }
+
+    /* FAQ */
+    .faq-item {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 1.5rem 0;
+    }
+
+    .faq-item summary {
+      font-size: 1.2rem;
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-item summary::after {
+      content: "+";
+      font-size: 1.5rem;
+      color: var(--primary);
+    }
+
+    .faq-item[open] summary::after {
+      content: "−";
+    }
+
+    .faq-item p {
+      margin-top: 1rem;
+      color: var(--text-muted);
+    }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 3rem 1.5rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      nav ul { display: none; }
+      .bento-grid { grid-template-columns: 1fr; }
+      .bento-item.wide { grid-column: span 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="nav-container">
+      <div class="logo"> MacBook Pro</div>
+      <nav>
+        <ul>
+          <li><a href="#beneficios">Rendimiento</a></li>
+          <li><a href="#pantalla">Pantalla</a></li>
+          <li><a href="#faq">Preguntas</a></li>
+        </ul>
+      </nav>
+      <a href="#comprar" class="btn">Comprar ahora</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <p class="eyebrow">M3 Max Silicon</p>
+      <h1>Potencia extrema.<br>Sin ataduras.</h1>
+      <p class="subtitle">Diseñado para llevar la creatividad, el desarrollo y el flujo de trabajo profesional más allá de todos los límites conocidos.</p>
+      <div class="hero-actions">
+        <a href="#comprar" class="btn">Comprar desde 2.999 €</a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&q=80" alt="MacBook Pro de 16 pulgadas sobre una mesa" class="hero-img">
+    </section>
+
+    <!-- IDENTIFICACIÓN DEL PROBLEMA -->
+    <section>
+      <h2 class="section-title">¿Tu equipo actual limita tus ideas?</h2>
+      <p class="section-desc">Sabemos lo frustrante que es trabajar cuando las herramientas no están a la altura de tu ritmo.</p>
+      <div class="problem-grid">
+        <div class="card">
+          <h3>Lags al renderizar o compilar</h3>
+          <p>Tiempo perdido esperando a que tus proyectos exporten o tus aplicaciones compilen.</p>
+        </div>
+        <div class="card">
+          <h3>Batería inconsistente</h3>
+          <p>Tener que buscar un enchufe desesperadamente a mitad de tu jornada creativa.</p>
+        </div>
+        <div class="card">
+          <h3>Pérdida de potencia en batería</h3>
+          <p>Portátiles que reducen su rendimiento al 50% en cuanto los desenchufas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRESENTACIÓN DE LA SOLUCIÓN & BENEFICIOS -->
+    <section id="beneficios">
+      <p class="eyebrow" style="text-align: center;">La Solución</p>
+      <h2 class="section-title">Cerebro M3 Max. Eficiencia absoluta.</h2>
+      <p class="section-desc">El MacBook Pro de 16" une la mayor potencia jamás vista en un chip con la eficiencia energética que solo Apple Silicon puede lograr.</p>
+      
+      <div class="bento-grid">
+        <div class="bento-item wide">
+          <div>
+            <p class="eyebrow">Autonomía</p>
+            <h3>Hasta 22 horas de batería</h3>
+            <p>Trabaja todo el día sin preocuparte por el cargador. Mismo rendimiento conectado o con batería.</p>
+          </div>
+        </div>
+        <div class="bento-item">
+          <div>
+            <p class="eyebrow">Gráficos</p>
+            <h3>Trazado de rayos</h3>
+            <p>Rendimiento gráfico x2.5 para renders 3D complejos y edición 8K fluida.</p>
+          </div>
+        </div>
+        <div class="bento-item">
+          <div>
+            <p class="eyebrow">Memoria</p>
+            <h3>Hasta 128 GB</h3>
+            <p>Memoria unificada de gran velocidad para ejecutar modelos de IA y multitarea masiva.</p>
+          </div>
+        </div>
+        <div class="bento-item wide" id="pantalla">
+          <div>
+            <p class="eyebrow">Liquid Retina XDR</p>
+            <h3>Pantalla de referencia mundial</h3>
+            <p>1.000 nits de brillo sostenido, tecnología ProMotion a 120Hz y fidelidad de color profesional.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CÓMO FUNCIONA -->
+    <section>
+      <h2 class="section-title">El camino a tu nuevo flujo de trabajo</h2>
+      <div class="steps">
+        <div>
+          <div class="step-number">01</div>
+          <h3>Elige tu configuración</h3>
+          <p>Personaliza memoria, almacenamiento y chip según la exigencia de tus proyectos.</p>
+        </div>
+        <div>
+          <div class="step-number">02</div>
+          <h3>Migración fluida</h3>
+          <p>Configura todo en minutos con el Asistente de Migración de macOS.</p>
+        </div>
+        <div>
+          <div class="step-number">03</div>
+          <h3>Crea sin frenos</h3>
+          <p>Experimenta la velocidad instantánea en Xcode, Premiere, Blender o VS Code.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRUEBA SOCIAL / TESTIMONIOS -->
+    <section>
+      <h2 class="section-title">Lo que dicen los profesionales</h2>
+      <div class="testimonial">
+        <p>"El salto de velocidad en la compilación de proyectos pesados ha reducido mi tiempo de espera a la mitad. Es simplemente la mejor herramienta de trabajo jamás creada."</p>
+        <br>
+        <small style="color: var(--text-muted);">— [TESTIMONIO REAL PENDIENTE - Desarrollador Lead]</small>
+      </div>
+    </section>
+
+    <!-- OFERTA Y PRECIO -->
+    <section id="comprar">
+      <div class="pricing-box">
+        <p class="eyebrow">MacBook Pro 16"</p>
+        <h2>Consigue el tuyo hoy</h2>
+        <div class="price">2.999 €</div>
+        <p style="color: var(--text-muted); margin-bottom: 2rem;">O financia desde 124,95 €/mes en 24 meses sin intereses.</p>
+        <ul style="text-align: left; margin-bottom: 2rem; list-style: none; font-size: 0.95rem;">
+          <li>✓ Envío gratuito en 24-48 horas</li>
+          <li>✓ AppleCare+ opcional disponible</li>
+          <li>✓ Devolución sin complicaciones en 14 días</li>
+        </ul>
+        <button class="btn" style="width: 100%; padding: 1rem;" onclick="alert('Redirigiendo a pasarela de compra...')">Comprar ahora</button>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+      <h2 class="section-title">Preguntas Frecuentes</h2>
+      <div style="margin-top: 2rem;">
+        <details class="faq-item">
+          <summary>¿Es suficiente la versión base para desarrollo web y diseño?</summary>
+          <p>Sí, la configuración inicial cuenta con suficiente memoria unificada y ancho de banda para ejecutar varios contenedores, entornos locales y herramientas de diseño simultáneamente.</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Qué garantía e instalación incluye?</summary>
+          <p>Incluye 3 años de garantía oficial y soporte técnico directo con Apple Specialist. [CONDICIONES DE GARANTÍA DETALLADAS PENDIENTES]</p>
+        </details>
+        <details class="faq-item">
+          <summary>¿Cómo funciona la devolución?</summary>
+          <p>Tienes 14 días naturales para probar el equipo. Si no cumple tus expectativas, puedes devolverlo sin coste alguno.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Apple Inc. Todos los derechos reservados.</p>
+    <p style="margin-top: 0.5rem;"><a href="#">Privacidad</a> | <a href="#">Aviso Legal</a> | <a href="#">Ventas</a></p>
+  </footer>
+
+</body>
+</html>
